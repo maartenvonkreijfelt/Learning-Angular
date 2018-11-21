@@ -19,8 +19,11 @@ export class AppComponent {
   query: string;
   artists: object;
 
-  showArtist(e){
-    console.log(e);
+
+
+  showArtist(item) {
+    //console.log(e);
+    this.query = item.name;
   }
 
   constructor() {
