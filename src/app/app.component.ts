@@ -3,15 +3,18 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  //styleUrls: ['./app.component.css']
   styles: [
     `
-      .list-group-item:first-child {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        border-top: 0;
-      }
+      div.list-group a.list-group-item {
+    text-decoration: none;
+}
+    h5{
+        font-size:1.3em;
+    }
     `
   ]
+
 })
 export class AppComponent {
   query: string;
