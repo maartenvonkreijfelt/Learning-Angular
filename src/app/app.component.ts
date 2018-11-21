@@ -6,12 +6,11 @@ import { Component } from '@angular/core';
   //styleUrls: ['./app.component.css']
   styles: [
     `
-      div.list-group a.list-group-item {
-    text-decoration: none;
-}
-    h5{
-        font-size:1.3em;
-    }
+ .list-group-item:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-top: 0;
+      }
     `
   ]
 
